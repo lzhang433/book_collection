@@ -1,0 +1,30 @@
+
+---
+ar_internal_metadata:
+  columns:
+  - key
+  - value
+  - created_at
+  - updated_at
+  records: 
+  - - environment
+    - development
+    - 2024-01-19 19:28:16.168883000 Z
+    - 2024-01-19 19:28:16.168883000 Z
+
+---
+books:
+  columns:
+  - id
+  - title
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - a book about how confused i am
+    - 2024-01-19 19:30:55.546084000 Z
+    - 2024-01-19 19:30:55.546084000 Z
+  - - 2
+    - another book
+    - 2024-01-19 19:31:10.096802000 Z
+    - 2024-01-19 19:31:10.096802000 Z
