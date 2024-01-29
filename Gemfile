@@ -27,8 +27,11 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
+<<<<<<< HEAD
 gem 'yaml_db'
 
+=======
+>>>>>>> 2db0cf17267f3196d0aed2a2031fc6b2392ec2a5
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
@@ -41,6 +44,12 @@ gem 'yaml_db'
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
+<<<<<<< HEAD
+=======
+# for db management
+gem 'yaml_db'
+
+>>>>>>> 2db0cf17267f3196d0aed2a2031fc6b2392ec2a5
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
