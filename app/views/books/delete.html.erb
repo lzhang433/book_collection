@@ -1,0 +1,10 @@
+<h1>Deleting book</h1>
+
+<%= render @book %>
+
+<br>
+
+<div>
+  <%= button_to "Destroy this book", @book, method: :delete %>
+  <%= link_to "Back to books", books_path %>
+</div>

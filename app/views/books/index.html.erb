@@ -1,0 +1,27 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Books</h1>
+  <table>
+    <tr id="header" className="header">
+      <th>Title</th>
+      <th>Author</th>
+      <th>Price</th>
+      <th>Published Date</th>
+      <th>Actions</th>
+    </tr>
+    <% @books.each do |book| %>
+      <tr id="books">
+        <td><%= book.title %></td>
+        <td><%= book.author %></td>
+        <td><%= book.price %></td>
+        <td><%= book.published_date %></td>
+        <td>
+          <%= link_to "Show this book", book %>
+          <%= link_to "Edit this book", edit_book_path(book) %>
+          <%= link_to "Delete this book", delete_book_path(book) %>
+        </td>
+      </tr>
+  <% end %>
+  </table>
+
+<%= link_to "New book?", new_book_path %>
